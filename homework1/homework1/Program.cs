@@ -56,6 +56,8 @@ class Program
          // }
          
          //N3
+         
+         
 
          // Console.Write("Enter first number a : ");
          // int a = int.Parse(Console.ReadLine());
@@ -72,14 +74,33 @@ class Program
          
          
          //N4
+         
+         
 
-         Console.Write("Enter number: ");
-         int number = int.Parse(Console.ReadLine());
-         for (int i = 1; i < 10; i++)
-         {
-             Console.WriteLine($"{number} * {i} = {number * i}");
-         }
+         // Console.Write("Enter number: ");
+         // int number = int.Parse(Console.ReadLine());
+         // for (int i = 1; i < 10; i++)
+         // {
+         //     Console.WriteLine($"{number} * {i} = {number * i}");
+         // }
+         
 
+         //N5
+         
+         
+
+         // Console.Write("Enter number: ");
+         // int number = int.Parse(Console.ReadLine());
+         //
+         // for (int i = 1; i < number; i++)
+         // {
+         //     if (i % 2 == 0)
+         //     {
+         //         Console.WriteLine(Math.Pow(i,2));
+         //     }
+         //     
+         // }
+       
 
 
 
