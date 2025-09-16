@@ -57,18 +57,28 @@ class Program
          
          //N3
 
-         Console.Write("Enter first number a : ");
-         int a = int.Parse(Console.ReadLine());
-         Console.Write("Enter second number b : ");
-         int b = int.Parse(Console.ReadLine());
-         Console.WriteLine($"a : {a} \nb : {b}");
-
-         int c = a;
-         a = b;
-         b = c;
-         Console.WriteLine("after change");
-         Console.WriteLine($"a : {a} \nb : {b}");
+         // Console.Write("Enter first number a : ");
+         // int a = int.Parse(Console.ReadLine());
+         // Console.Write("Enter second number b : ");
+         // int b = int.Parse(Console.ReadLine());
+         // Console.WriteLine($"a : {a} \nb : {b}");
+         //
+         // int c = a;
+         // a = b;
+         // b = c;
+         // Console.WriteLine("after change");
+         // Console.WriteLine($"a : {a} \nb : {b}");
          
+         
+         
+         //N4
+
+         Console.Write("Enter number: ");
+         int number = int.Parse(Console.ReadLine());
+         for (int i = 1; i < 10; i++)
+         {
+             Console.WriteLine($"{number} * {i} = {number * i}");
+         }
 
 
 
